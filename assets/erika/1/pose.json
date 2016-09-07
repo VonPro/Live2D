@@ -1,0 +1,25 @@
+{
+	"type":"Live2D Pose",
+	"parts_visible":[
+		{
+			"group":[
+				{"id":"PARTS_01_MOUTH_001"},
+				{"id":"PARTS_01_MOUTH_002"}
+			]
+		},
+		{
+			"group":[
+				{"id":"PARTS_01_ARM_R_001"},
+				{"id":"PARTS_01_ARM_R_001-2"},
+				{"id":"PARTS_01_ARM_R_002"}
+			]
+		},
+		{
+			"group":[
+				{"id":"PARTS_01_ARM_L_001"},
+				{"id":"PARTS_01_ARM_L_001-2"},
+				{"id":"PARTS_01_ARM_L_002"}
+			]
+		}
+	]
+}

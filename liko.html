@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Liko - Live2D</title>
+
+		<link rel="stylesheet" type="text/css" href="./static/css/style.css">
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btnHidebtn").change(function(){
+					if(this.checked){
+						$("#hide").css("display","none");
+					}
+					else{
+						$("#hide").css("display","");
+					}
+				});
+				/* JQuery Shitty "onclick" */
+				/* didn't know how to do the show/hide thing with just one button :/ */
+				$("#btnBorder").click(function(){
+					$("#glcanvas").css("border","dashed 0px #fff");
+					$("#btnBorder").text("Show Border");
+				});
+				$("#btnBorder").dblclick(function(){
+					$("#glcanvas").css("border","dashed 1px #fff");
+					$("#btnBorder").text("Hide Border");
+				});
+			});
+		</script>
+
+		<style type="text/css">
+			html{
+				background-image:url(./assets/liko/background.jpg);
+				background-repeat:no-repeat;
+			}
+		</style>
+	</head>
+	<body onload="sampleApp1()" class="liko">
+		<div id="model">
+			<canvas id="glcanvas" class="liko" width="1000" height="900"></canvas>
+		</div>
+		<div id="news">
+			<div id="hide" style="display:none;">
+				<button id="btnChange" class="active">Change Model</button>
+				<!-- <button id="btnChangePlus" class="active">Change Model +</button>
+				<button id="btnChangeMinus" class="active">Change Model -</button> --><br />
+				<button id="btnBorder" class="active">Show Border</button><br />
+				click -> hide | dblclick = show
+			</div>
+			<h1>News</h1>
+			<h2>Upcoming additions</h2>
+			<table class="rwd-table">
+				<tr>
+					<th>Options</th>
+					<th>When?</th>
+				</tr>
+				<tr>
+					<td>Audio</td>
+					<td>After the expressions</td>
+				</tr>
+				<tr>
+					<td>Hide/Show</td>
+					<td>In the end</td>
+				</tr>
+				<tr>
+					<td>Expressions</td>
+					<td>Soon</td>
+				</tr>
+				<tr>
+					<td>Icon</td>
+					<td>Never?</td>
+				</tr>
+			</table>
+		</div>
+		<div id="help">
+			<p>
+				Any help? -> kasaidot[at]gmail.com<br />
+				Please wait while the model is loading.
+			</p>
+		</div>
+
+		<!-- Live2D Library -->
+		<script src="static/js/Live2D.min.js"></script>
+
+		<!-- Live2D Framework -->
+		<script src="static/js/Live2DFramework.js"></script>
+
+		<!-- /\ -->
+		<script src="static/js/MatrixStack.js"></script>
+		<script src="static/js/ModelSettingJson.js"></script>
+
+		<!-- User's Script -->
+		<script src="static/js/models/PlatformManager.js"></script>
+		<script src="static/js/models/LAppDefine.js"></script>
+		<script src="static/js/models/LAppModel.js"></script>
+		<script src="static/js/models/LAppLive2DManager.liko.js"></script>
+		<script src="static/js/models/SampleApp1.js"></script>
+	</body>
+	<footer>
+		<input id="btnHidebtn" type="checkbox" checked="checked">
+		<span class="copyright">© Kasai. 2016</span>
+	</footer>
+</html>
