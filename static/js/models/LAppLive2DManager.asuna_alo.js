@@ -15,7 +15,7 @@ LAppLive2DManager.prototype.changeModel = function(gl){
 	if(this.reloadFlg){
 		this.reloadFlg = false;
 
-		/*var no = parseInt(this.count % 34);
+		var no = parseInt(this.count % 34);
 		var thisRef = this;
 
 		switch(no){
@@ -73,18 +73,18 @@ LAppLive2DManager.prototype.changeModel = function(gl){
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.ALO_ASUNA_09);
 				break;
-			case 9:
+			/*case 9:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.ALO_ASUNA_10);
-				break;
-			case 10:
+				break;*/
+			/*case 10:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.ALO_ASUNA_11);
-				break;
+				break;*/
 			case 11:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
@@ -199,18 +199,18 @@ LAppLive2DManager.prototype.changeModel = function(gl){
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.ALO_ASUNA_30);
 				break;
-			case 30:
+			/*case 30:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.ALO_ASUNA_31);
-				break;
-			case 31:
+				break;*/
+			/*case 31:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.ALO_ASUNA_32);
-				break;
+				break;*/
 			case 32:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
@@ -228,233 +228,6 @@ LAppLive2DManager.prototype.changeModel = function(gl){
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.ALO_ASUNA_35);
-				break;
-		}*/
-		var no = parseInt(this.count % 37);
-		var thisRef = this;
-
-		switch(no){
-			case 0:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_01);
-				break;
-			case 1:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_02);
-				break;
-			case 2:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_03);
-				break;
-			case 3:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_04);
-				break;
-			case 4:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_05);
-				break;
-			case 5:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_06);
-				break;
-			case 6:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_07);
-				break;
-			case 7:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_08);
-				break;
-			case 8:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_09);
-				break;
-			case 9:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_12);
-				break;
-			case 10:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_13);
-				break;
-			case 11:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_14);
-				break;
-			case 12:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_15);
-				break;
-			case 13:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_16);
-				break;
-			case 14:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_17);
-				break;
-			case 15:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_18);
-				break;
-			case 16:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_19);
-				break;
-			case 17:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_20);
-				break;
-			case 18:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_21);
-				break;
-			case 19:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_22);
-				break;
-			case 20:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_23);
-				break;
-			case 21:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_24);
-				break;
-			case 22:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_25);
-				break;
-			case 23:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_26);
-				break;
-			case 24:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_27);
-				break;
-			case 25:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_28);
-				break;
-			case 26:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_29);
-				break;
-			case 27:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_30);
-				break;
-			case 28:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_31);
-				break;
-			case 29:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_33);
-				break;
-			case 30:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_34);
-				break;
-			case 31:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_35);
-				break;
-			case 32:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_36);
-				break;
-			case 33:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_37);
-				break;
-			case 34:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_38);
-				break;
-			case 35:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_39);
-				break;
-			case 36:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.ALO_ASUNA_40);
 				break;
 		}
 	}

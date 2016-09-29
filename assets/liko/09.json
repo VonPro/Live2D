@@ -6,7 +6,7 @@
 		"09/textures/1.png",
 		"09/textures/2.png",
 		"09/textures/3.png",
-		"common/textures/4.png"
+		"09/textures/4.png"
 	],
 	"expressions":[
 		{"name":"F_FUN",         "file":"common/expressions/F_FUN.json"},

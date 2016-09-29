@@ -1,16 +1,14 @@
 # Models Available
- * Swort Art Online
-  * Asuna (ALO Ver)
- * ACTIVE RAID
-  * Liko
- * Erika
+ * From "Swort Art Online", Asuna (SAO & ALO Ver.)
+ * From "ACTIVE RAID", Liko
+ * From eitarou, Erika
+ * From Live2D, Wanko
+ * From Live2D, Shizuku
+ * From Live2D, Epsilon
+ * From Live2D, Haru
 
-# In Construction
- * Swort Art Online
-  * Asuna (SAO Ver)
- * Others
-  * Haru
+# Models in Construction
+ * From "Mirai Clock", Mirai
 
 # Looking for...
- * Gakusen Toshi Asterisk
-  * Claudia
+ * From "Gakusen Toshi Asterisk", Claudia

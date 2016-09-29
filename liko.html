@@ -1,35 +1,13 @@
 <!doctype html>
-<html>
+<html id="liko">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 
 		<title>Liko - Live2D</title>
 
 		<link rel="stylesheet" type="text/css" href="./static/css/style.css">
 
-		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$("#btnHidebtn").change(function(){
-					if(this.checked){
-						$("#hide").css("display","none");
-					}
-					else{
-						$("#hide").css("display","");
-					}
-				});
-				/* JQuery Shitty "onclick" */
-				/* didn't know how to do the show/hide thing with just one button :/ */
-				$("#btnBorder").click(function(){
-					$("#glcanvas").css("border","dashed 0px #fff");
-					$("#btnBorder").text("Show Border");
-				});
-				$("#btnBorder").dblclick(function(){
-					$("#glcanvas").css("border","dashed 1px #fff");
-					$("#btnBorder").text("Hide Border");
-				});
-			});
-		</script>
+		<script type="text/javascript" src="./static/js/scripts.min.js"></script>
 
 		<style type="text/css">
 			html{
@@ -38,7 +16,7 @@
 			}
 		</style>
 	</head>
-	<body onload="sampleApp1()" class="liko">
+	<body onload="sampleApp1()">
 		<div id="model">
 			<canvas id="glcanvas" class="liko" width="1000" height="900"></canvas>
 		</div>
@@ -48,14 +26,14 @@
 				<!-- <button id="btnChangePlus" class="active">Change Model +</button>
 				<button id="btnChangeMinus" class="active">Change Model -</button> --><br />
 				<button id="btnBorder" class="active">Show Border</button><br />
-				click -> hide | dblclick = show
+				click -> show | dblclick -> hide
 			</div>
 			<h1>News</h1>
-			<h2>Upcoming additions</h2>
+			<p>Upcoming Additions</p>
 			<table class="rwd-table">
 				<tr>
 					<th>Options</th>
-					<th>When?</th>
+					<th>Release Date</th>
 				</tr>
 				<tr>
 					<td>Audio</td>
@@ -69,10 +47,6 @@
 					<td>Expressions</td>
 					<td>Soon</td>
 				</tr>
-				<tr>
-					<td>Icon</td>
-					<td>Never?</td>
-				</tr>
 			</table>
 		</div>
 		<div id="help">
@@ -83,14 +57,14 @@
 		</div>
 
 		<!-- Live2D Library -->
-		<script src="static/js/Live2D.min.js"></script>
+		<script src="static/js/live2d/Live2D.min.js"></script>
 
 		<!-- Live2D Framework -->
-		<script src="static/js/Live2DFramework.js"></script>
+		<script src="static/js/live2d/Live2DFramework.js"></script>
 
 		<!-- /\ -->
-		<script src="static/js/MatrixStack.js"></script>
-		<script src="static/js/ModelSettingJson.js"></script>
+		<script src="static/js/live2d/MatrixStack.js"></script>
+		<script src="static/js/live2d/ModelSettingJson.js"></script>
 
 		<!-- User's Script -->
 		<script src="static/js/models/PlatformManager.js"></script>

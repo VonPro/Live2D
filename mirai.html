@@ -1,0 +1,80 @@
+<!doctype html>
+<html id="mirai">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Mirai - Live2D</title>
+
+		<link rel="stylesheet" type="text/css" href="./static/css/style.css">
+
+		<script type="text/javascript" src="./static/js/scripts.min.js"></script>
+
+		<style type="text/css">
+			html{
+				background-image:url(./assets/mirai/background.jpg);
+				background-repeat:no-repeat;
+			}
+		</style>
+	</head>
+	<body onload="sampleApp1()">
+		<div id="model">
+			<canvas id="glcanvas" class="mirai" width="500" height="800"></canvas>
+		</div>
+		<div id="news">
+			<div id="hide" style="display:none;">
+				<button id="btnChange" class="active">Change Model</button>
+				<!-- <button id="btnChangePlus" class="active">Change Model +</button>
+				<button id="btnChangeMinus" class="active">Change Model -</button> --><br />
+				<button id="btnBorder" class="active">Show Border</button><br />
+				click -> show | dblclick -> hide
+			</div>
+			<h1>News</h1>
+			<p>Upcoming Additions</p>
+			<table class="rwd-table">
+				<tr>
+					<th>Options</th>
+					<th>Release Date</th>
+				</tr>
+				<tr>
+					<td>Audio</td>
+					<td>After the expressions</td>
+				</tr>
+				<tr>
+					<td>Hide/Show</td>
+					<td>In the end</td>
+				</tr>
+				<tr>
+					<td>Expressions</td>
+					<td>Soon</td>
+				</tr>
+			</table>
+		</div>
+		<div id="help">
+			<p>
+				Any help? -> kasaidot[at]gmail.com<br />
+				Please wait while the model is loading.
+			</p>
+		</div>
+
+		<!-- Live2D Library -->
+		<script src="static/js/live2d/Live2D.min.js"></script>
+
+		<!-- Live2D Framework -->
+		<script src="static/js/live2d/Live2DFramework.js"></script>
+
+		<!-- /\ -->
+		<script src="static/js/live2d/MatrixStack.js"></script>
+		<script src="static/js/live2d/ModelSettingJson.js"></script>
+
+		<!-- User's Script -->
+		<script src="static/js/models/PlatformManager.js"></script>
+		<script src="static/js/models/LAppDefine.js"></script>
+		<script src="static/js/models/LAppModel.js"></script>
+		<script src="static/js/models/LAppLive2DManager.mirai.js"></script>
+		<script src="static/js/models/SampleApp1.js"></script>
+	</body>
+	<footer>
+		<input id="btnHidebtn" type="checkbox" checked="checked">
+		<span class="copyright">© Kasai. 2016</span>
+	</footer>
+</html>
