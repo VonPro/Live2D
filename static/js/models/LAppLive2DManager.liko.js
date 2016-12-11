@@ -15,7 +15,7 @@ LAppLive2DManager.prototype.changeModel = function(gl){
 	if(this.reloadFlg){
 		this.reloadFlg = false;
 
-		var no = parseInt(this.count % 11);
+		var no = parseInt(this.count % 18);
 		var thisRef = this;
 
 		switch(no){
@@ -31,65 +31,101 @@ LAppLive2DManager.prototype.changeModel = function(gl){
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_02);
 				break;
-			/*case 2:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.LIKO_03);
-				break;*/
-			case 3:
+			case 2:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_04);
 				break;
-			case 4:
+			case 3:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_05);
 				break;
-			/*case 5:
+			case 4:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_06);
-				break;*/
-			/*case 6:
-				this.releaseModel(1,gl);
-				this.releaseModel(0,gl);
-				this.createModel();
-				this.models[0].load(gl,LAppDefine.LIKO_07);
-				break;*/
-			case 7:
+				break;
+			case 5:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_08);
 				break;
-			case 8:
+			case 6:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_09);
 				break;
-			case 9:
+			case 7:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_10);
 				break;
-			case 10:
+			case 8:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_11);
 				break;
+			case 9:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_12);
+				break;
+			case 10:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_13);
+				break;
 			case 11:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_14);
+				break;
+			case 12:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_15);
+				break;
+			case 13:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_16);
+				break;
+			case 14:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_17);
+				break;
+			case 15:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
 				this.models[0].load(gl,LAppDefine.LIKO_SP);
+				break;
+			case 16:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_SP1);
+				break;
+			case 17:
+				this.releaseModel(1,gl);
+				this.releaseModel(0,gl);
+				this.createModel();
+				this.models[0].load(gl,LAppDefine.LIKO_SP2);
 				break;
 		}
 	}

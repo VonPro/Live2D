@@ -1,23 +1,24 @@
 {
-	"version":"1.0",
 	"model":"14/model.moc",
+	"physics":"14/physics.json",
 	"textures":[
 		"common/textures/0.png",
 		"common/textures/1.png",
 		"14/textures/2.png",
-		"14/textures/3.png"
+		"14/textures/3.png",
+		"14/textures/4.png"
 	],
 	"expressions":[
-		{"name":"FUN",         "file":"common/expressions/FUN.json"},
-		{"name":"FUN_HANIKAMI","file":"common/expressions/FUN_HANIKAMI.json"},
-		{"name":"FUN_MAX",     "file":"common/expressions/FUN_MAX.json"},
-		{"name":"FUN_SMILE",   "file":"common/expressions/FUN_SMILE.json"},
-		{"name":"FUN_WARM",    "file":"common/expressions/FUN_WARM.json"},
-		{"name":"NOMAL",       "file":"common/expressions/NOMAL.json"},
-		{"name":"SAD",         "file":"common/expressions/SAD.json"},
-		{"name":"SURPRISE",    "file":"common/expressions/SURPRISE.json"},
-		{"name":"ANGRY",       "file":"common/expressions/ANGRY.json"},
-		{"name":"SLEEP",       "file":"common/expressions/SLEEP.json"}
+		{"name":"F_FUN",         "file":"common/expressions/F_FUN.json"},
+		{"name":"F_FUN_HANIKAMI","file":"common/expressions/F_FUN_HANIKAMI.json"},
+		{"name":"F_FUN_MAX",     "file":"common/expressions/F_FUN_MAX.json"},
+		{"name":"F_FUN_SMILE",   "file":"common/expressions/F_FUN_SMILE.json"},
+		{"name":"F_FUN_WARM",    "file":"common/expressions/F_FUN_WARM.json"},
+		{"name":"F_NOMAL",       "file":"common/expressions/F_NOMAL.json"},
+		{"name":"F_SAD",         "file":"common/expressions/F_SAD.json"},
+		{"name":"F_SURPRISE",    "file":"common/expressions/F_SURPRISE.json"},
+		{"name":"F_ANGRY",       "file":"common/expressions/F_ANGRY.json"},
+		{"name":"F_SLEEP",       "file":"common/expressions/F_SLEEP.json"}
 	],
 	"hit_areas":[
 		{"name":"head","id":"D_REF.PT_HEAD"},
@@ -47,6 +48,5 @@
 		"flick_head":[
 			{"file":"common/motions/flickHead_00.mtn","sound":"sounds/flickHead_00.mp3"}
 		]
-	},
-	"physics":"14/physics.json"
+	}
 }

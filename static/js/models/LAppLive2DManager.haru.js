@@ -23,13 +23,13 @@ LAppLive2DManager.prototype.changeModel = function(gl){
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
-				this.models[0].load(gl,LAppDefine.HARU_1);
+				this.models[0].load(gl,LAppDefine.HARU_01);
 				break;
 			case 1:
 				this.releaseModel(1,gl);
 				this.releaseModel(0,gl);
 				this.createModel();
-				this.models[0].load(gl,LAppDefine.HARU_2);
+				this.models[0].load(gl,LAppDefine.HARU_02);
 				break;
 		}
 	}

@@ -1,6 +1,6 @@
 {
-	"version":"1.0",
 	"model":"sp/model.moc",
+	"physics":"sp/physics.json",
 	"textures":[
 		"common/textures/0.png",
 		"sp/textures/1.png",
@@ -53,6 +53,5 @@
 			{"file":"common/motions/idle/1.mtn","fade_in":2000,"fade_out":2000},
 			{"file":"common/motions/idle/2.mtn","fade_in":2000,"fade_out":2000}
 		]
-	},
-	"physics":"sp/physics.json"
+	}
 }

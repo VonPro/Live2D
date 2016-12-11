@@ -6,9 +6,10 @@
 }
 
 /* */
-#asuna_sao,
 #asuna_alo,
+#asuna_sao,
 #liko,
+#kato,
 #erika,
 #wanko,
 #shizuku,
@@ -18,19 +19,25 @@
 }
 
 #mirai,
+#potion_maker,
 #claudia{
 	display:none;
 }
 
 /* models.css */
 .asuna{
-	top:-20%;
-	left:12%;
+	top:-18%;
+	left:5%;
 }
 
 .liko{
-	top:0;
-	left:-1%;
+	top:-27px;
+	left:0;
+}
+
+.kato{
+	top:-65px;
+	left:0;
 }
 
 .erika{
@@ -40,21 +47,21 @@
 
 .wanko{
 	top:-5%;
-	left:-1%;
+	left:-5%;
 }
 
 .shizuku{
-	top:-23%;
+	top:-20%;
 	left:15%;
 }
 
 .epsilon{
-	top:-23%;
+	top:-19%;
 	left:15%;
 }
 
 .haru{
-	top:-23%;
+	top:-20%;
 	left:7%;
 }
 
@@ -70,10 +77,15 @@ a:-webkit-any-link{
 	text-decoration:none;
 }
 
-#info,
-#accepted{
+html > *{
 	font-family:"PicasProperHand";
-	font-size:2em;
+}
+
+#info{
+	font-size:2.69em;
+}
+#accepted{
+	font-size:1.74em;
 }
 
 #glcanvas{
@@ -91,18 +103,23 @@ a:-webkit-any-link{
 	font-size:25px;
 }
 
+#aside{
+	background:white;
+    margin:0 0 0 1076px;
+    border-radius:10px;
+    padding:10px 0px;
+}
+
 #news,
 #help{
 	width:511px;
-	margin:0px 0px 0px 1015px;
 	text-align:center;
-	font-family:"PicasProperHand";
 }
 
 #news h1,
 #help h1{
 	font-size:70px;
-	margin:0px 0px 0px 0px;
+	margin:0;
 }
 
 #news table,
@@ -113,38 +130,27 @@ a:-webkit-any-link{
 }
 
 .copyright{
-	position:absolute;
-	z-index:1000;
-	bottom:20px;
-	right:80px;
-	width:70px;
-	height:24px;
-	padding:0;
-	border:none;
 	outline:none;
-	background:transparent;
 	font-size:.7em;
-	-webkit-font-smoothing:antialiased;
-	font-family:Arial,sans-serif,Helvetica,Lato,Avenir,"Avenir Next","Helvetica Neue","Segoe UI";
-	margin:0;
 	color:#cecece;
 }
 
 #btnHidebtn{
-	position:absolute;
-	z-index:1000;
-	bottom:60px;
-	right:80px;
-	height:24px;
-	padding:0;
-	border:none;
 	outline:none;
-	background:transparent;
+}
+
+footer{
+	background:black;
+	border-radius:10px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	padding:15px 30px;
 }
 
 /* button.css */
 button{
-	font-family:Arial,Helvetica,sans-serif;
+	outline:none;
 	font-size:14px;
 	color:#ffffff;
 	padding:10px 20px;
@@ -191,7 +197,7 @@ button.inactive{
 }
 
 .rwd-table{
-	padding:.5em .5em .5em .5em;
+	padding:.5em;
 	background:#34495E;
 	color:#fff;
 	border-radius:.4em;

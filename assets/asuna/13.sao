@@ -1,11 +1,13 @@
 {
-	"version":"1.0",
 	"model":"13/model.moc",
+	"physics":"13/physics.json",
 	"textures":[
 		"common/textures/0.png",
 		"common/textures/1.png",
 		"13/textures/2.png",
-		"13/textures/3.png"
+		"13/textures/3.png",
+		"13/textures/4.png",
+		"13/textures/5.png"
 	],
 	"expressions":[
 		{"name":"FUN",         "file":"common/expressions/FUN.json"},
@@ -47,6 +49,5 @@
 		"flick_head":[
 			{"file":"common/motions/flickHead_00.mtn","sound":"sounds/flickHead_00.mp3"}
 		]
-	},
-	"physics":"13/physics.json"
+	}
 }

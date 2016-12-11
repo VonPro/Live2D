@@ -1,6 +1,6 @@
 {
-	"version":"1.0",
 	"model":"04/model.moc",
+	"physics":"04/physics.json",
 	"textures":[
 		"common/textures/0.png",
 		"common/textures/1.png",
@@ -47,6 +47,5 @@
 		"flick_head":[
 			{"file":"common/motions/flickHead_00.mtn","sound":"sounds/flickHead_00.mp3"}
 		]
-	},
-	"physics":"04/physics.json"
+	}
 }
