@@ -143,6 +143,10 @@ var LAppDefine = {
 			SHIZUKU_01 : "assets/shizuku/01.json",
 		// EPSILON
 			EPSILON_01 : "assets/epsilon/01.json",
+		// YUKARI
+			YUKARI_01 : "assets/yukari/01.json",
+		// TSUKIMI
+			TSUKIMI_01 : "assets/tsukimi/01.json",
 
 	// MOTIONS
 	MOTION_GROUP_IDLE       : "idle",
